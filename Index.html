@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- instertamos el framework de bootstrap -->
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- insertamos un archivo css -->
     <link rel="stylesheet" href="style.css">
 
     <title>Proyectos Master css</title>
@@ -14,6 +16,7 @@
 
 <body>
 
+    <!-- barra de navegacion -->
     <header>
         <nav class="bg-dark navbar navbar-expand-md navbar-dark">
             <div class="container-fluid">
@@ -41,19 +44,21 @@
         </nav>
     </header>
 
+    <!-- principal -->
     <main>
 
+        <!-- slider de imagenes -->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/imagen1.jpg" class="d-block w-100 " height="400px" alt="...">
+                    <img src="img/img1.png" class="d-block w-100 " height="400px" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/Imagen2.jpg" class="d-block w-100" height="400px" alt="...">
+                    <img src="img/img2.png" class="d-block w-100" height="400px" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/imagen3.jpg" class="d-block w-100" height="400px" alt="...">
+                    <img src="img/img3.png" class="d-block w-100" height="400px" alt="...">
                 </div>
             </div>
 
@@ -71,63 +76,80 @@
 
         </div>
 
+        <!-- seccion principal, inicio del contenido -->
         <section>
             <div id="principal" class="container">
-                <h1 class="text-center fw-bold">Proyectos Curso Master en CSS</h1>
-                <p class="text-left">
+                <h1 class="p-4 text-center fw-bold fs-1">Proyectos Curso Master en CSS</h1>
+                <p class="p-3 text-center fw-normal fs-4">
                     Aqui se encuentra todo los proyectos realizados durante el curso master en CSS,
                     donde se podrá encontrar tanto el código fuente como el proyecto ya subido para poder
                     visualizarse desde la web.
                 </p>
             </div>
-    
+
         </section>
-        
+
+        <!-- seccion contenedores de los cursos  -->
         <section>
-            <div id="proyectos" class=" container"> 
-                <div class="row">
-                    <div class="col ">
+
+            <div id="proyectos" class="container">
+                
+                <div class="row m-4  ">
+
+                    <div class="col-sm-4 pb-5">
+                        
                         <div class="card">
                             <img src="img/Pro1.png" class="card-img-top" alt="">
+                            
                             <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text">Proyecto de diseño web de un blog utilizando html, css y animaciones
+                                <h5 class="card-title fw-bold text-center">Proyecto 1</h5>
+                                <p class="text-center fw-normal fs-6">Proyecto de diseño web de un blog utilizando html, css y
+                                    animaciones
                                 </p>
-                                <a href="#" class="btn btn-primary">Ver Proyecto</a>
-                                <a href="#" class="btn btn-primary">Ver Sitio</a>
+
+                                <a href="#" class="col-5 m-2 btn btn-primary fw-bolder fs-6">Ver Proyecto</a>
+                                <a href="#" class="col-5 m-2 btn btn-primary fw-bolder fs-6">Ver Sitio</a>
+
                             </div>
+                            
                         </div>
+                        
                     </div>
-                    <div class="col ">
+
+                    <div class="col-sm-4 pb-5">
+
                         <div class="card">
                             <img src="img/Pro2.png" class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text">Proyecto de diseño web de un portafolio con html y css</p>
-                                <a href="#" class="btn btn-primary">Ver Proyecto</a>
-                                <a href="#" class="btn btn-primary">Ver Sitio</a>
+                                <h5 class="card-title fw-bold text-center"> Proyecto 2</h5>
+                                <p class="card-text text-center">Proyecto de diseño web de un portafolio con html y css</p>
+                                <a href="#" class="col-5 m-2 btn btn-primary fw-bolder fs-6">Ver Proyecto</a>
+                                <a href="#" class="col-5 m-2 btn btn-primary fw-bolder fs-6">Ver Sitio</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col ">
+
+                    <div class="col-sm-4 pb-5">
+
                         <div class="card">
                             <img src="img/Pro3.png" class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text">Proyecto de diseño web de un blog de noticias con html y css</p>
-                                <a href="#" class="btn btn-primary">Ver Proyecto</a>
-                                <a href="#" class="btn btn-primary">Ver Sitio</a>
+                                <h5 class="card-title fw-bold text-center">Proyecto 3</h5>
+                                <p class="card-text text-center">Proyecto de diseño web de un blog de noticias con html y css</p>
+                                <a href="#" class="col-5 m-2 btn btn-primary fw-bolder fs-6">Ver Proyecto</a>
+                                <a href="#" class="col-5 m-2 btn btn-primary fw-bolder fs-6">Ver Sitio</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </section>
-       
 
     </main>
 
-
+    <!-- pie de pagina -->
     <footer id="footer" class="bg-dark text-muted py-5 ">
         <div class="container">
             <p class="float-end mb-1 ">
